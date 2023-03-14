@@ -64,7 +64,6 @@ a:hover{
     padding: 20px 50px;
     position: relative;
 }
-.container::after,
 .container::before{
     position: absolute;
     left: 50%;
@@ -73,9 +72,6 @@ a:hover{
     width: 80%;
     height: 0.5px;
     background-color: black;
-}
-.container::after{
-    top: 0;
 }
 .container::before{
     bottom: 0;
