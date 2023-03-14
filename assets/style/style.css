@@ -119,9 +119,9 @@ ul{
 }
 .error_page{
     height: 0;
-    visibility: hidden;
+    overflow: hidden;
 }
 .error_page-open{
     height: auto;
-    visibility: visible;
+    overflow: visible;
 }
