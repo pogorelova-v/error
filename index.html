@@ -13,10 +13,16 @@
 <body>
 
     <header>
-        <h1>Ошибки валидации на сайте <a href="https://pknn2.brain-storm.ru/">pknn2.brain-storm.ru</a></h1>
+        <h1>Ошибки на сайте <a href="https://pknn2.brain-storm.ru/">pknn2.brain-storm.ru</a></h1>
+        <div class="sub-title">
+            <button class="btn_validation-js">Валидатор</button>
+            <button class="btn_external-js">Видимые</button>
+        </div>
     </header>
 
     <main>
+
+      <section class="validation type_verification">
 
         <section class="main_page">
             <div class="container">
@@ -2684,11 +2690,58 @@
             </div>
         </section>
 
+      </section>
+
+      <section class="external type_verification">
+            <div class="container">
+                    <ol class="external-list">
+                        <li>
+                            <p>Под шторкой не видно кнопку обратной связи, адреса и невозможно зайти в ЛК</p>
+                            <img src="assets/icon/1.png" alt="error">
+                            <p class="comment_valid"><a href="https://pknn152.ru/" target="_blank">ссылка</a></p>
+                        </li>
+                        <li>
+                            <p>По клику на иконку пкнн (шапка и подвал) на главной странице - страница перезагружается, визуально - дёргается </p>
+                            <ul>
+                                <li class="was"> href="/" </li>
+                                <li class="bec"> href="javascript:void(0);" </li>
+                            </ul>
+                            <p class="comment_valid"><a href="https://pknn152.ru/" target="_blank">ссылка</a></p>
+                        </li>
+                        <li>
+                            <p>Товар которого нет в наличии не получается добавить в избранное с его карточки (в общем каталоге получается) </p>
+                            <img src="assets/icon/2.png" alt="error">
+                            <p class="comment_valid"><a href="https://pknn152.ru/katalog/avarijno-spasatelnoe-oborudovanie/zhilet-signalnyj/zhilet-signalnyj-salatovyj-so-svetovozvrashayushimi-poloskam/" target="_blank">ссылка</a></p>
+                        </li>
+                        <li>
+                            <p>Если каталог товаров развернуть нажатием "показать ещё", после чего нажать на  "&lt;&lt;", мы попадём на 404 страницу</p>
+                            <video src="assets/icon/4.webm" controls loop></video>
+                            <p class="comment_valid"><a href="https://pknn152.ru/katalog/stvoly-pozharnye-i-vodopennoe-oborudovanie/" target="_blank">ссылка</a></p>
+                        </li>
+                        <li>
+                            <p>В блоке избранное, при снятии "звёздочки" товар визуально не удаляется сразу, остаётся до перезагрузки, хотя при подобном действии в блоке 'лист ожидания' товар сразу пропадает</p>
+                            <video src="assets/icon/6.webm" controls loop></video>
+                            <p class="comment_valid"><a href="https://pknn152.ru/favorite/" target="_blank">ссылка</a></p>
+                        </li>
+                        <li>
+                            <p>В блоке акции 'двери с установкой' - несвязанные 'товары участвующие в акции'</p>
+                            <video src="assets/icon/7.webm" controls loop></video>
+                            <p class="comment_valid"><a href="https://pknn152.ru/sales/dveri-protivopozharnye-900kh2100-s-ustanovkoy/" target="_blank">ссылка</a></p>
+                        </li>
+                        <li>
+                            <p>Странный span на странице Утилизация огнетушителей</p>
+                            <img src="assets/icon/8.png" alt="error">
+                            <p class="comment_valid"><a href="https://pknn152.ru/katalog/avarijno-spasatelnoe-oborudovanie/zhilet-signalnyj/zhilet-signalnyj-salatovyj-so-svetovozvrashayushimi-poloskam/" target="_blank">ссылка</a></p>
+                        </li>
+                    </ol>
+            </div>
+      </section>
     </main>
 
     <footer>
         <a href="mailto:pogorelova@upfly.ru">pogorelova@upfly.ru</a>
     </footer>
+    <script src="assets/script/jq.js"></script>
     <script src="assets/script/script.js"></script>
 </body>
 
